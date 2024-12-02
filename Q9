@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>De boas</title>
+</head>
+<body>
+    <script src="Js/scripts.js"></script>
+</body>
+</html>
+‎scripts.js
++12
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,12 @@
+let numero = parseFloat(prompt('Digite um número: '));
+if (numero < 0) {
+    
+    alert("Você digitou um número negativo.");
+} else {
+    
+    alert("Você digitou um número positivo.");
+}
